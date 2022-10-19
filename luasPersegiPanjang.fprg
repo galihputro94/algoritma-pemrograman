@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Galih"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-19 10:24:14 PM"/>
+        <attribute name="created" value="R2FsaWg7REVTS1RPUC1NSVJWMERHOzIwMjItMTAtMTk7MTA6MDY6MTQgQU07MjgzMQ=="/>
+        <attribute name="edited" value="R2FsaWg7REVTS1RPUC1NSVJWMERHOzIwMjItMTAtMTk7MTA6MjQ6MTQgUE07NTsyOTU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ps, ls, lpp" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukan Panjang Sisi (cm):&quot;" newline="True"/>
+            <input variable="ps"/>
+            <output expression="&quot;Masukan Lebar Sisi (cm):&quot;" newline="True"/>
+            <input variable="ls"/>
+            <assign variable="lpp" expression="ps * ls"/>
+            <output expression="&quot;Panjang Sisi: &quot; &amp; ps &amp; &quot; cm&quot;" newline="True"/>
+            <output expression="&quot;Lebar Sisi: &quot; &amp; ls &amp; &quot; cm&quot;" newline="True"/>
+            <output expression="&quot;Luas Persegi Panjang: &quot; &amp; lpp &amp; &quot; cm&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

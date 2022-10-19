@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Galih"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-19 10:25:33 PM"/>
+        <attribute name="created" value="R2FsaWg7REVTS1RPUC1NSVJWMERHOzIwMjItMTAtMTk7MTA6MDU6NDQgQU07MjgzMw=="/>
+        <attribute name="edited" value="R2FsaWg7REVTS1RPUC1NSVJWMERHOzIwMjItMTAtMTk7MTA6MjU6MjUgUE07MTA7R2FsaWg7REVTS1RPUC1NSVJWMERHOzIwMjItMTAtMTk7MDc6MDM6NTMgQU07S2Fsa3VsYXRvciBBbGdvLmZwcmc7NzkwNg=="/>
+        <attribute name="edited" value="R2FsaWg7REVTS1RPUC1NSVJWMERHOzIwMjItMTAtMTk7MTA6MjU6MzMgUE07MjsyOTU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="as, ts, ls" type="Real" array="False" size=""/>
+            <output expression="ToChar(13) &amp; &quot;Silahkan Masukan Alas Segitiga:&quot;" newline="True"/>
+            <input variable="as"/>
+            <output expression="&quot;Alas Segitiga: &quot; &amp; as &amp; &quot; cm&quot;" newline="True"/>
+            <output expression="ToChar(13) &amp; &quot;Silahkan Masukan Tinggi Segitiga:&quot;" newline="True"/>
+            <input variable="ts"/>
+            <output expression="&quot;Tinggi Segitiga: &quot; &amp; ts &amp; &quot; cm&quot; &amp; ToChar(13)" newline="True"/>
+            <assign variable="ls" expression="(as*ts) / 2"/>
+            <output expression="&quot;Luas Segitiga: &quot; &amp; ToFixed(ls, 2) &amp; &quot; cm&quot; &amp; ToChar(13)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
